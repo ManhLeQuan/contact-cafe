@@ -1,0 +1,390 @@
+
+#footer {
+    background-image: url(/image/banner/bg_05.png);
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    position:relative;
+    z-index: 2;
+}
+
+.clear {
+    clear: both;
+}
+
+#footer::before {
+    content: " ";
+    position:absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #000000;
+    opacity: 0.5;
+    z-index: -1;
+
+}
+
+
+.font-size {
+    color:
+#ffffff;
+font-family: Oswald;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+margin: 0px 0px 48px;
+text-transform: uppercase;
+font-family: "Roboto", sans-serif
+
+}
+
+.footer-container {
+    padding: 110px 120px;
+    z-index: 5;
+
+}
+
+.top-footer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 150px;
+    ;
+}
+.top-item {
+    width: 41.6666666667%;
+}
+.text-top-footer {
+    color: #ffffff;
+font-family: Oswald;
+font-size: 45px;
+font-weight: 700;
+line-height: 45px;
+margin: 0px 0px 50px;
+text-align: center;
+text-transform: uppercase;
+}
+
+.form-input {
+   
+    position: relative;
+}
+
+.input-footer {
+    background-color: #1B1B1B;
+border-color: #1B1B1B;
+border-radius: 5px;
+border-style:
+solid;
+border-width: 1px;
+color: white;
+font-family: Roboto;
+font-size: 14px;
+line-height: 23.1px;
+width: 100%;
+padding:15px;
+position: absolute;
+outline: none;
+}
+
+.bottom-input {
+    
+background-color: #c7a17a;
+border-radius: 5px;
+color: #ffffff;
+font-family: DM Sans;
+font-size: 14px;
+font-weight: 700;
+line-height: 14px;
+padding: 21px 25px;
+text-align: center;
+text-transform: uppercase;
+position: absolute;
+
+right: 0;
+transition: 0.6s cubic-bezier(0.25, 1, 0.5, 1)
+}
+
+.bottom-input:hover{
+    background-color: black;
+    cursor: pointer;
+}
+
+.main-footer {
+    display: flex;
+    justify-content: space-around; 
+    
+    /* width: 25%; */
+    /* flex-basis: auto;     */
+}
+
+
+
+
+.cafe {
+    max-width: 276px;
+  
+}
+
+.cafe, .contact, .opening {
+    margin-right: 5%;
+}
+
+
+.logo-cafe {
+   width: 100%;;
+}
+.img-cafe {
+    font-size: 24px;
+    width: 70%;
+    margin-bottom: 20px;
+}
+
+.text-cafe {
+    color: #ffffff;
+
+font-size: 14px;
+line-height: 23.1px;
+margin: 0px 0px 25px;
+}
+.text-cafe, .item-contact,
+.item-opening {
+    font-size: 14px;
+    font-weight: 300;
+    color: white;
+    list-style: none;
+    
+
+}
+
+.item-contact {
+    padding-bottom: 20px;
+}
+
+.list-opening {
+    display: grid;
+    grid-template-columns: 1.2fr 2fr;
+    padding-bottom: 10px;
+    column-gap: 50px;
+}
+
+
+.text-opening {
+    /* float: right; */
+    text-align:right;
+    
+    
+}
+.social-list {
+    list-style: none;
+    display: flex;
+}
+
+.social-item {
+    margin-right: 15px;
+}
+
+
+.icon-social {
+    background-color: #1b1b1b;
+border-radius: 5px;
+color: #c7a17a;
+display: inline-block;
+font-family: Roboto;
+font-size: 14px;
+line-height: 37px;
+text-align: center;
+padding: 10px;
+transition: 0.6s cubic-bezier(0.25, 1, 0.5, 1)
+
+}
+
+.icon-social:hover {
+    background-color:#c7a17a;
+    color: white;
+    cursor: pointer;
+    transition: 0.6s cubic-bezier(0.25, 1, 0.5, 1)
+}
+.recen-post {
+    display: flex;
+    margin-bottom: 20px;
+    
+    
+}
+
+.text-recen {
+    padding-left: 20px;
+    display: block;
+    text-transform: uppercase;
+
+}
+
+.text-title {
+    font-size: 12px;
+    /* line-height: 19.8px; */
+    color: #c7a17a;
+}
+
+.item-title a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    margin-bottom: 8px;
+    display: block;
+    
+}
+
+.item-title a:hover {
+    text-decoration: underline;
+    color: #c7a17a;
+    transition: 0.6s cubic-bezier(0.25, 1, 0.5, 1)
+}
+
+.box {
+    width: 100%;
+    height: 2px;
+    background-color: #ccc;
+    /* z-index: 5; */
+    opacity: 0.4;
+    margin-top: 100px;
+}
+
+.bottom-title {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+    /* color: #c7a17a; */
+}
+
+.bottom-title span {
+    font-size: 14px;
+}
+
+.bottom-title a {
+    color: #c7a17a;
+    font-size: 14px;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.bottom-title a::before {
+    position: absolute;
+    width: 0px;
+    left: auto;
+    right: 0px;
+    bottom: 0px;
+    height: 1px;
+    content: " ";
+    background-color: #c7a17a;
+    transition: 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+    text-decoration: underline;
+    animation: running-underline 2s  infinite;
+   
+}
+
+  @keyframes running-underline {
+    0% {
+    
+      background-color: #c7a17a;
+      width: 0px;
+      right: 0px;
+      left: auto;
+      bottom: 0px;
+      height: 1px;
+    }
+    100% {
+      
+      background-color: #c7a17a;
+      width: 100%;
+      right: 100%;
+      left: 0;
+      bottom: 0px;
+      height: 1px;
+    }
+  }
+
+@media (max-width:739px) {
+
+    .top-footer {
+        margin-bottom: 200px;
+    }
+
+    .main-footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .main-container {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .footer-container {
+        padding: 110px 25px;
+        z-index: 5;
+    
+    }
+
+    .input-top {
+        display: grid;
+    grid-template-columns:  1fr;
+    grid-row-gap: 20px;
+    }
+    
+
+    .form-input {
+        width: 100%;
+    }
+
+    .input-footer  {
+        background-color: #1B1B1B;
+        border-color: #1B1B1B;  
+        border-radius: 5px;
+        border-style:
+        solid;
+        border-width: 1px;
+        color: white;
+        font-family: Roboto;
+        font-size: 14px;
+        line-height: 23.1px;
+        width: 250px;
+        padding:20px;
+        display: flex;
+        justify-content: center;
+        
+        outline: none;
+    }
+
+    .bottom-input {
+        background-color: #c7a17a;
+        border-radius: 5px;
+        color: #ffffff;
+        font-family: DM Sans;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 14px;
+        padding: 20px 20px;
+        text-align: center;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        margin-top: 30%;
+        margin-right: 25%;
+        transition: 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+    }
+
+    .recen {
+        padding-left: 20px;
+    }
+
+    .opening {
+        margin-left:10px;
+    }
+}
+
